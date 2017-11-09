@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    
     <script src="https://use.fontawesome.com/7946c1480d.js"></script>
     
@@ -18,11 +17,15 @@
     <link rel="stylesheet" href="css/style.css">
     
     
-   <style>
+    <style>
       @media screen and (max-width: 420px) 
         {
           h4 {
             font-size: 90%; 
+          }
+          
+          img-responsive {
+            padding:5px;
           }
         }
         </style>
@@ -35,61 +38,63 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#top">Stephanie Shea</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#top">Stephanie Shea</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#top">Home<span class="sr-only">(current)</span></a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+              <a href="#projects" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="pages/carousel.html">Projects Carousel</a></li>
               </ul>
             </li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-
     <div class="container">
       <a name="about"></a>
-      <div class="page-header animated slideInLeft"><h1>PORTFOLIO</h1></div>  
-          <div class="row">
-            <div class="col-sm-12" style="background-color:#e6e6e6;">
-              <h1>About<img src="images/me.jpg" class="pull-right img-responsive" width="300px" height="266px"></h1>
-              
-              <h4 style="line-height:1.8em;">Front End Developer and future Full Stack Software / Web Developer, with practical experience in social media, graphic design, communications, and data analysis; experienced with Drupal and Wordpress; several years experience teaching English and Technology to a variety of ages. Currently attending CareerDevs Computer Science Academy. </h4>
-              <p><a class="btn btn-primary btn-lg" style="margin-top:20px;" href="#contact">Contact me</a></p>
-            </div>
-          </div>
-          
+      <div class="page-header animated slideInLeft">
+         <h1>PORTFOLIO</h1>
+      </div>  
+      <div class="row">
+        <div class="col-sm-12" style="background-color:#e6e6e6;">
+          <h1>About<img src="images/me.jpg" class="pull-right img-responsive-me" width="300px" height="266px"></h1>
+          <h4 style="line-height:1.8em;">Front End Developer and future Full Stack Software / Web Developer, with practical experience in social media, graphic design, communications, and data analysis; experienced with Drupal and Wordpress; several years experience teaching English and Technology to a variety of ages. Currently attending CareerDevs Computer Science Academy. </h4>
+          <p><a class="btn btn-primary btn-lg" style="margin-top:20px;" href="#contact">Contact me</a></p>
+        </div>
+      </div>
+    </div>
          
-          
-      <a name="Projects"></a>
-      <hr />
+    <a name="Projects"></a>
+    <hr />
   
-    <div class="container-fluid"> 
+    <div class="container"> 
       <div class="row">
         <h1 style="margin-bottom:20px;">Projects</h1>
         <div class="col-sm-6">
           <h2>Profile Page</h2>
-            <a href="https://github.com/stephshea/careerdevs-project-1" target="blank"><img src="images/einsteinscreenshot.jpg" class="img-responsive"></a></div>
+            <a href="https://github.com/stephshea/careerdevs-project-1" target="blank"><img src="images/einsteinscreenshot.jpg" class="img-responsive"></a>
+          </div>
        
         <div class="col-sm-6">
           <h2>Javascript Algorithms</h2>
-          <a href="https://github.com/stephshea/js" target="blank"><img src="images/javascriptscreenshot.jpg" class="img-responsive"></a></div>
+            <a href="https://github.com/stephshea/js" target="blank"><img src="images/javascriptscreenshot.jpg" class="img-responsive"></a>
         </div>
+      </div>
     
       <div class="row">
         <div class="col-sm-4"><img src="http://via.placeholder.com/400x200" class="img-responsive img-rounded"></div>
@@ -97,81 +102,78 @@
         <div class="col-sm-4"><img src="http://via.placeholder.com/400x200" class="img-responsive img-rounded"></div>
       </div>
     </div>
+    <div class="container">
+      <div class="embed-responsive embed-responsive-16by9">      
     
-    <div class="embed-responsive embed-responsive-16by9">      
-    
-    <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/FTsZm1fn2H8" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="316" class="embed-responsive-item" src="https://www.youtube.com/embed/FTsZm1fn2H8" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
-    
     <a name="contact"></a>
     <hr />
   
     <div class="container">
       <h1>Contact Me</h1>
       <div class="row">
-
         <div class="col-sm-6">
-        <h4>Please feel free to contact me by filling out the contact form or if you prefer, contact me directly at <a href="mailto:stephcshea@gmail.com">stephcshea@gmail.com</a> | 401.595.7468</h4>
-        <h4>I look forward to hearing from you!</h4>
+          <h4>Please feel free to contact me by filling out the contact form or if you prefer, contact me directly at <a href="mailto:stephcshea@gmail.com">stephcshea@gmail.com</a> | 401.595.7468</h4>
+          <h4>I look forward to hearing from you!</h4>
 
-
-    <div class="panel-info" style="margin-top:50px;">
-      <a href="https://www.facebook.com/stephaniekshea"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-      <a href="https://twitter.com/stephcshea"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-      
-      <a href="https://www.linkedin.com/in/stephanie-shea/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
-      <a href="mailto:stephcshea@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        <div class="panel-info" style="margin-top:50px;">
+          <a href="https://www.facebook.com/stephaniekshea"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+          <a href="https://twitter.com/stephcshea"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+          <a href="https://www.linkedin.com/in/stephanie-shea/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+          <a href="https://github.com/stephshea/"><i id="social-li" class="fa fa-github fa-3x social"></i></a>
+          <a href="mailto:stephcshea@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
     </div>
-  </div>
 	     
-    <div class="col-sm-6">
-    
-      <form class="form-horizontal" action="" method="post">
-        <fieldset>
+        <div class="col-sm-6">
+          <form class="form-horizontal" action="" method="post">
+            <fieldset>
     
           <!-- Name input-->
-          <div class="form-group">
-          <label class="col-md-3 control-label" for="name">Name</label>
-          <div class="col-md-9">
-          <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-          </div>
-          </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+                <div class="col-md-9">
+                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                </div>
+            </div>
     
           <!-- Email input-->
-          <div class="form-group">
-          <label class="col-md-3 control-label" for="email">Your E-mail</label>
-          <div class="col-md-9">
-          <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-          </div>
-          </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                <div class="col-md-9">
+                  <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                </div>
+            </div>
           
           <!-- Message body -->
-          <div class="form-group">
-          <label class="col-md-3 control-label" for="message">Your message</label>
-          <div class="col-md-9">
-          <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-          </div>
-          </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+                <div class="col-md-9">
+                  <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                </div>
+            </div>
           
           <!-- Form actions -->
-          <div class="form-group">
-          <div class="col-md-12 text-right">
-          <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-          </div>
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
           </fieldset>
-          </form>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
- 
-  <footer class="panel-footer"><h4>Stephanie Shea | <a href="mailto:stephcshea@gmail.com">mailto:stephcshea@gmail.com</a> | 401.595.7468</h4></footer>
+  </div>
 
-   <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+ 
+    <footer class="panel-footer"><h4>Stephanie Shea | <a href="mailto:stephcshea@gmail.com">mailto:stephcshea@gmail.com</a> | 401.595.7468</h4></footer>
+    
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
